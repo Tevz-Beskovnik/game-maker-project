@@ -6,3 +6,7 @@ if(ins != noone)
 {
 	camera_set_view_target(cam, ins);
 }
+else
+{
+	camera_set_view_target(cam, obj_player);
+}
